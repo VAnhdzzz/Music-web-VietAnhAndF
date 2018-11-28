@@ -1,9 +1,9 @@
 let dataGet;
-$.getJSON('data.json', function(data) {
+var a = $.getJSON('data.json', (data) => {
     dataGet = data;
 })
-
 console.log(dataGet);
 
+console.log(a);
 
 
