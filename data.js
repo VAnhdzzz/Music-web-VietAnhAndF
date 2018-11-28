@@ -14,5 +14,4 @@ var data = [
         thumbnail: '',
         image: '',
     },
-    
 ]

@@ -1,3 +1,9 @@
+let dataGet;
 $.getJSON('data.json', function(data) {
-    console.log(data);
+    dataGet = data;
 })
+
+console.log(dataGet);
+
+
+
