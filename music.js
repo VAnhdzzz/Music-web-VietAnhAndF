@@ -1,5 +1,12 @@
-var a = $.getJSON('data.json', function(data) {
-    console.log(data);
-})
+const run = async () => {
+    const dataAfterGet = await getDataFromJson('data.json');
+    // Write Code JS here
+    console.log(dataAfterGet);
+    dataAfterGet.forEach(el => console.log(el))
+    
 
-console.log(a);
+    //____________________
+}
+
+
+run();  
