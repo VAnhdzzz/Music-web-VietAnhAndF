@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     /* background-image: url("https://i.ytimg.com/vi/Xpgj8xRy2yk/maxresdefault.jpg"); */
     /* background-image: url("https://i.ytimg.com/vi/mFW-5xeEb0g/maxresdefault.jpg"); */
     /* background-size: cover; */
-   
-  
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -44,10 +51,11 @@ body{
     color: black;
     
     border-radius: 10px;
+    justify-content: space-around;
 }
 div a{
     text-decoration: none;
-    margin-left: 110px;
+    /* margin-left: 110px; */
     font-size: 30px;
     border-right: 3px solid;
     padding-right: 160px;
