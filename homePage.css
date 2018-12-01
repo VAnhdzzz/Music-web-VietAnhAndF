@@ -6,7 +6,9 @@ body{
     /* background-image: url("https://i.ytimg.com/vi/Xpgj8xRy2yk/maxresdefault.jpg"); */
     /* background-image: url("https://i.ytimg.com/vi/mFW-5xeEb0g/maxresdefault.jpg"); */
     /* background-size: cover; */
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-image: url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350);
+    background-size: cover;
     
 }
 
@@ -81,8 +83,8 @@ div a{
 #mood{
     height: 500px;
     width: 90%;
-    background-color:lavender;
-     position: relative;
+    background-color:lavender;  
+    position: absolute;
    font-size: 50px;
    /* border: 0.5px solid;*/
    border-radius: 100px; 
@@ -94,7 +96,7 @@ div a{
 .mood-icon{
     
     height: 300px;
-    width: 300px;
+    width: 375px;
     padding-right: 100px;
 
 }
@@ -113,4 +115,23 @@ div a{
     height: 100%;
     width: 100%;
     margin-top: 30px;
+}
+.ytvid {
+    border: 3px solid;
+    margin-left: 15%;
+    transition: ease-in-out 0.6s;
+}
+/* .center {
+    text-align: center;
+} */
+.genre {
+    height: 500px;
+    width: 65%;
+    background-color:lavender;
+    position: absolute;
+   font-size: 50px;
+   /* border: 0.5px solid;*/
+   border-radius: 100px; 
+   text-align: center;
+   margin-left: 5%
 }
