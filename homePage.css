@@ -29,6 +29,8 @@ body{
       transition: 0.6s ease-in-out;
       font-size: 20px;
       position: fixed;
+      top: 100px;
+      z-index: 999;
       
 
 }   
@@ -46,7 +48,7 @@ body{
   
     display: flex;
     color: black;
-    
+    justify-content: space-between  ;
     border-radius: 10px;
     
 }
@@ -61,7 +63,7 @@ div a{
 }
 #content{
     width: 75%;
-    height: 1000px;
+    height: 500px;
     /* background-color: black; */
     margin-top: 10px; 
     position: relative;
@@ -80,7 +82,7 @@ div a{
     height: 500px;
     width: 90%;
     background-color:lavender;
-     position: absolute;
+     position: relative;
    font-size: 50px;
    /* border: 0.5px solid;*/
    border-radius: 100px; 
