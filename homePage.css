@@ -45,7 +45,7 @@ body{
   
     display: flex;
     color: black;
-    justify-content: space-between;
+    justify-content: space-between  ;
     border-radius: 10px;
 }
 div a{
