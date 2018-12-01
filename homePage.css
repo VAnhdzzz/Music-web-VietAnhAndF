@@ -116,6 +116,7 @@ div a{
     width: 100%;
     margin-top: 30px;
 }
+<<<<<<< HEAD
 .ytvid {
     border: 3px solid;
     margin-left: 15%;
@@ -134,4 +135,9 @@ div a{
    border-radius: 100px; 
    text-align: center;
    margin-left: 5%
+=======
+
+.display-left{
+    margin-bottom: 100px;
+>>>>>>> 04f0fba9bbae0702509834f8950d52cf3ed84b17
 }
