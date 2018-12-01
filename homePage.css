@@ -2,7 +2,8 @@ body{
     /* background-image: url("https://i.ytimg.com/vi/Xpgj8xRy2yk/maxresdefault.jpg"); */
     /* background-image: url("https://i.ytimg.com/vi/mFW-5xeEb0g/maxresdefault.jpg"); */
     /* background-size: cover; */
-   
+    background-color: whitesmoke;
+   width: 100vw;
   
 }
 
@@ -25,6 +26,8 @@ body{
       transition: 0.6s ease-in-out;
       font-size: 20px;
       position: fixed;
+      top: 100px;
+      z-index: 999;
       
 
 }   
@@ -42,12 +45,12 @@ body{
   
     display: flex;
     color: black;
-    
+    justify-content: space-between;
     border-radius: 10px;
 }
 div a{
     text-decoration: none;
-    margin-left: 110px;
+    /* margin-left: 110px; */
     font-size: 30px;
     border-right: 3px solid;
     padding-right: 160px;
