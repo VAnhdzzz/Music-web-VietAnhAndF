@@ -14,13 +14,9 @@
 }
 
 body{
-    /* background-image: url("https://i.ytimg.com/vi/Xpgj8xRy2yk/maxresdefault.jpg"); */
-    /* background-image: url("https://i.ytimg.com/vi/mFW-5xeEb0g/maxresdefault.jpg"); */
-    /* background-size: cover; */
-    /* background-color: whitesmoke; */
-    /* background-image: url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350); */
+    background-image: url(https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+
     background-size: cover;
-    background-image: url(https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
     
 }
 
@@ -83,7 +79,7 @@ div a{
     /* position: relative; */
     display: flex;
     justify-content: center;
-    border: 3px solid;
+    border: 4px solid gainsboro;
     border-radius: 50px;
     border-bottom: none
 }
@@ -103,7 +99,7 @@ div a{
     /* position: absolute; */
    font-size: 50px;
    /* border: 0.5px solid;*/
-   border-radius: 100px; 
+   border-radius:100px; 
    text-align: center;
 
    
@@ -187,7 +183,7 @@ div a{
     /* float: left; */
     width: 30%;
     height: 300px;
-    border: 2px solid;
+    border: 5px dashed  ;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -229,6 +225,14 @@ div a{
     height: 100px;
     width: 50px;
 }
-.mvSlide {
-
+.artist{
+    width: 100%;
+    height: 500px;;
+}
+.mvSlide{
+    width: 100%;
+    height: 600px;
+    border: 4px solid gainsboro;
+    border-radius: 100px;
+    border-top:none;
 }
