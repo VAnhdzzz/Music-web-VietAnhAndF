@@ -227,7 +227,8 @@ div a{
 }
 .artist{
     width: 100%;
-    height: 500px;;
+    height: 500px;
+
 }
 .mvSlide{
     width: 100%;
@@ -235,4 +236,9 @@ div a{
     border: 4px solid gainsboro;
     border-radius: 100px;
     border-top:none;
+}
+.a-img{
+    width: 105%;
+    height: 300px;
+    border-radius: 50px;
 }
