@@ -138,8 +138,21 @@ div a{
 }
 
 .display-left{
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
+    position: relative;
+    left: 185px;
 }
-.left {
-    margin-left: 23.5%
+.up {
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+#mv {
+    display: inline-block;
+    position: relative;
+}
+.mvs {
+    margin-top: 50px
 }
