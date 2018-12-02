@@ -8,9 +8,9 @@
     box-sizing: border-box;
     text-align: center;
     margin-left: 12%;
-    border: 3px solid;  
-    border-radius: 10px;
-    background-color: lightblue;
+    /* border: 3px solid;  
+    border-radius: 10px; */
+    
     font-family: 'Amatic SC', cursive;
 }
 
