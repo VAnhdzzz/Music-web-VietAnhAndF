@@ -1,6 +1,17 @@
 * {
     box-sizing: border-box;
 }
+.first-talk{
+    font-size: 50px;
+    height: 300px;
+    width: 75%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 12%;
+    border: 3px solid;  
+    border-radius: 10px;
+    background-color: lightblue;
+}
 
 body{
     /* background-image: url("https://i.ytimg.com/vi/Xpgj8xRy2yk/maxresdefault.jpg"); */
@@ -102,7 +113,7 @@ div a{
     
     height: 300px;
     width: 375px;
-    padding-right: 100px;
+    padding-right: 190px;
 
 }
 .mood-word{
@@ -160,4 +171,17 @@ div a{
 .icon-container{
     height: 300px;
     width: 100%
+}
+.mr30{
+    margin-right:60px;
+}
+.ml30{
+    margin-left: 110px;
+}
+.title{
+    text-align: center;
+    font-size: 90px;
+}
+.g-content{
+    
 }
