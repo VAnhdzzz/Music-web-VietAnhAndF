@@ -155,3 +155,7 @@ div a{
     align-self: center;
     justify-content: flex-end;
 }
+.icon-container{
+    height: 300px;
+    width: 100%
+}
