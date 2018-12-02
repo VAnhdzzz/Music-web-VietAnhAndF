@@ -133,11 +133,8 @@ div a{
     margin-top: 30px;
 }
 #mv{
-    border: 3px solid;
-    border-bottom: none;
-    border-radius: 50px;
     height: 520px;
-    width: 100%;
+    width: 80%;
     /* margin-left: 20%; */
     display: flex;
     justify-content: center;
@@ -147,26 +144,26 @@ div a{
 .ml10{
     margin-left: 10%
 }
-.btn{
-    height: 50px;
-    width: 300px;
-    background: lightblue;
-    margin-left: 30%;
-    display: flex;
-    justify-content: center;
-   
+
+.display-left{
+    margin-bottom: 100px; 
+    position: relative;
+    left: 185px;
 }
-.btn-l{
-    height: 40px;
-    width: 30px;
-    align-self: center; 
-   margin-right: 100px;
+.up {
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    border: 2px solid;
+    border-radius: 10px;
 }
-.btn-r{
-    height: 40px;
-    width: 30px;
-    align-self: center;
-    justify-content: flex-end;
+#mv {
+    display: inline-block;
+    position: relative;
+    left: 20%
+}
+.mvs {
+    margin-top: 50px;
 }
 .icon-container{
     height: 300px;
@@ -202,4 +199,36 @@ div a{
     display: flex;
     width: 100%;
     justify-content: space-around;
+}
+.g-content{
+    
+}
+.left {
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
+    border: 2px ;
+    border-radius: 10px;
+    left: 22%;
+    z-index: 999;
+    background-color: rgb(234, 234,234);
+    font-size: 30px;
+    height: 100px;
+    width: 50px;
+}
+.right {
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
+    border: 2px ;
+    border-radius: 10px;
+    left: -6%;
+    z-index: 999;
+    background-color:rgb(234, 234,234) ;
+    font-size: 30px;
+    height: 100px;
+    width: 50px;
+}
+.mvSlide {
+
 }
