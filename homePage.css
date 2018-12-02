@@ -1,6 +1,17 @@
 * {
     box-sizing: border-box;
 }
+.first-talk{
+    font-size: 50px;
+    height: 300px;
+    width: 75%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 12%;
+    border: 3px solid;  
+    border-radius: 10px;
+    background-color: lightblue;
+}
 
 body{
     /* background-image: url("https://i.ytimg.com/vi/Xpgj8xRy2yk/maxresdefault.jpg"); */
@@ -102,7 +113,7 @@ div a{
     
     height: 300px;
     width: 375px;
-    padding-right: 100px;
+    padding-right: 190px;
 
 }
 .mood-word{
@@ -122,11 +133,8 @@ div a{
     margin-top: 30px;
 }
 #mv{
-    border: 3px solid;
-    border-bottom: none;
-    border-radius: 50px;
     height: 520px;
-    width: 100%;
+    width: 80%;
     /* margin-left: 20%; */
     display: flex;
     justify-content: center;
@@ -156,4 +164,50 @@ div a{
 }
 .mvs {
     margin-top: 50px;
+}
+.icon-container{
+    height: 300px;
+    width: 100%
+}
+.mr30{
+    margin-right:60px;
+}
+.ml30{
+    margin-left: 110px;
+}
+.title{
+    text-align: center;
+    font-size: 90px;
+}
+.g-content{
+    
+}
+.left {
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
+    border: 2px ;
+    border-radius: 10px;
+    left: 22%;
+    z-index: 999;
+    background-color: rgb(234, 234,234);
+    font-size: 30px;
+    height: 100px;
+    width: 50px;
+}
+.right {
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
+    border: 2px ;
+    border-radius: 10px;
+    left: 2%;
+    z-index: 999;
+    background-color:rgb(234, 234,234) ;
+    font-size: 30px;
+    height: 100px;
+    width: 50px;
+}
+.mvSlide {
+
 }
