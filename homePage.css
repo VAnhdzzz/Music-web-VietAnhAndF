@@ -152,7 +152,8 @@ div a{
 #mv {
     display: inline-block;
     position: relative;
+    left: 20%
 }
 .mvs {
-    margin-top: 50px
+    margin-top: 50px;
 }
