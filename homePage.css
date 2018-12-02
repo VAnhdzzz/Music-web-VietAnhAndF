@@ -11,11 +11,12 @@
     border: 3px solid;  
     border-radius: 10px;
     background-color: lightblue;
+    font-family: 'Amatic SC', cursive;
 }
 
 body{
-    background-image: url(https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-
+    background-image: url("audio-black-and-white-black-and-white-6966\ \(1\).jpg");
+    background-attachment: fixed;
     background-size: cover;
     
 }
