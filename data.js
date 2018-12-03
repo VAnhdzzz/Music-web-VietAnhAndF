@@ -1,23 +1,18 @@
 var dataMusic = [
     {
         id: 1,
-        name: 'thang dien',
-        thumbnail: '....',
-        url: 'https://images.pexels.com/photos/1649649/pexels-photo-1649649.jpeg?auto=compress&cs=tinysrgb&h=350',
-        author: '....'
+        artist: 'Vu',
+        name: 'chuyen nhung nguoi yeu xa',
+        thumbnail: '',
+        img_url: '',
+        vid_url: 'https://www.youtube.com/watch?v=u0x4bp6tWXs&list=PLn7c8RY7CfPahS1rUsGWmDzPAKN-34Zev'
     },
     {
         id: 2,
-        name: 'thang dien',
-        thumbnail: '....',
-        url: 'https://images.pexels.com/photos/1649649/pexels-photo-1649649.jpeg?auto=compress&cs=tinysrgb&h=350',
-        author: '....'
-    },
-    {
-        id: 3,
-        name: 'thang dien',
-        thumbnail: '....',
-        url: 'https://images.pexels.com/photos/1649649/pexels-photo-1649649.jpeg?auto=compress&cs=tinysrgb&h=350',
-        author: '....'
+        artist: 'Vu',
+        name: '',
+        thumbnail: '',
+        img_url: '',
+        vid_url: ''
     },
 ]
