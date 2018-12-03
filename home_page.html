@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="homePage.css" />
     <!-- <script src="main.js"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Dancing+Script|Gloria+Hallelujah|Great+Vibes|Kaushan+Script|Satisfy|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Dancing+Script|Gloria+Hallelujah|Great+Vibes|Indie+Flower|Kaushan+Script|Satisfy|Shadows+Into+Light" rel="stylesheet">
     
 </head>
 <body>
@@ -18,31 +18,28 @@
         but meaningful and creative. Although our website is not professional, I still hope that you have a great time and enjoy yourself."
         </i></div>  
     <!-- navigation bar -->
-      <div id="header" > 
+    <div id="header" > 
 
-          <div id="topnav" >
-              <form style="display:inline; padding-bottom: 10px;  ">
+        <div id="topnav" >
+            <form style="display:inline; padding-bottom: 10px;  ">
                     
-                    <input id="search-bar" type="text" name="Search" placeholder="Search..." >
-                </form>
+                <input id="search-bar" type="text" name="Search" placeholder="Search..." >
+            </form>
                 <!-- <span style="margin-left:65% ;font-size:30px;"> ABOUT US</span>
                  -->
-            </div> 
+        </div> 
             
             
             
-            <div id="navigation-bar" >
-                <a href="#genre"    class="    ">genre</a>
-                <a href=".artist"  class="center">artist</a>
-                <a href="#mv" class="center">MV</a>
-                <a href="addLink"  class="center">game</a>
-                <a href="addLink" class="center"> About Us</a>
-            </div>
+        <div id="navigation-bar" >
+            <a href="addLink"    class="center">genre</a>
+            <a href="addLink"  class="center">artist</a>
+            <a href="#mv" class="center">MV</a>
+            <a href="addLink"  class="center">game</a>
+            <a href="addLink" class="center"> About Us</a>
+        </div>
      </div> 
-        <!-- <div id="seperated-bar">
-            Vanh and Qminh
-        </div> -->
-
+       
      <!-- content -->
        <div id="body">  
 
@@ -51,7 +48,7 @@
                <div id="mood">
                     <div>
                         
-                        What is your mood today?
+                        Tell us your feeling...
                     </div>   
                    <div >
 
@@ -74,27 +71,35 @@
                     <div class="mood-word">
                             <span>Don't ask</span>
                             <span style="padding-left:200px;"> Don't care</span>
-                         
+                    <div>
+                        <img class="mood-icon ml10" src="https://media.giphy.com/media/l4pSUKs7EVQ9ubLXi/giphy.gif" alt="">
+                        <img class="mood-icon" src="https://media.giphy.com/media/xThtanf2KH2BFHEvZK/giphy.gif" alt="">
+                    </div>
+                    <div class="mood-word">
+                        <span>In love</span>
+                        <span style="padding-left:200px">Angry</span>
+                    </div>     
                     </div>
                 </div>
                 
             </div>
-            <!-- <div id="recomened">
-                recomened
-            </div> -->
+        
             
         </div>
-        
-        <div style="text-align:center; font-size:90px;">
-            MVs that you may like
+        <br>
+        <br>
+        <hr style="border:3px solid; width:70%;margin-top: 300px;">
+        <div style="text-align:center; font-size:90px; margin-top: 30px;">
+            ---Recommended MVs---
         </div>
+        
         <div class="mvSlide">
             <button class="btn-l left" onclick="plusDivs(-1)">&#10094;</button>
             <div id="mv">
                 <iframe class="my-slide "width="800" height="515" src="https://www.youtube.com/embed/vBBxYtt-BzE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe class="my-slide " width="800" height="515" src="https://www.youtube.com/embed/HHD9nLAn-Vo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe class="my-slide " width="800" height="515" src="https://www.youtube.com/embed/8TszjrFJOe0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
+                <iframe class="my-slide" width="800" height="515" src="https://www.youtube.com/embed/58IkVCh3hWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <button class="btn-r right" onclick="plusDivs(+1)">&#10095;</button>
         </div>
@@ -113,15 +118,18 @@
            </div>
         
             <div class="row">
-                <div class="column">
+                <!-- <div class="column note">
                    Indie song
                 </div>
-                <div class="column">
+                <div class="column note">
                     Pop song
                 </div>
-                <div class="column">
+                <div class="column note">
                     Rap song
-                </div>
+                </div> -->
+                <a href="file:///C:/Users/HP/Documents/c4t%20project%20music%20app/Music-web-VietAnhAndF/genre.html" class="column note">Indie</a>
+                <a href="file:///C:/Users/HP/Documents/c4t%20project%20music%20app/Music-web-VietAnhAndF/genre.html" class="column note">Pop</a>
+                <a href="file:///C:/Users/HP/Documents/c4t%20project%20music%20app/Music-web-VietAnhAndF/genre.html" class="column note">Rap</a>
             </div>
             
         </div>
@@ -154,6 +162,7 @@
                      </div>
                 </div>
         </div>
+        <br>
         <br>    
         <hr style="border:3px solid; width:70%;">
         <div class="game">
