@@ -1,7 +1,8 @@
 body{
-    background: url(/Users/doanvietanh/Documents/ct47/musicweb/Music-web-VietAnhAndF/black-and-white-gray-guitar-8263.jpg);
-    background-size:cover;
+    background-image: url("audio-black-and-white-black-and-white-6966\ \(1\).jpg");
     background-attachment: fixed;
+    background-size: cover;
+    
 }
 #title{
     font-size: 70px;
