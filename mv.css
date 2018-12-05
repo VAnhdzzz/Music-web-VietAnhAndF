@@ -47,9 +47,9 @@ body{
 .big-mv{
     height:  600px;
     width: 75%;
-    border-right: 3px solid;
+    border-right: 3px solid whitesmoke;
     border-radius: 50px;
-    color: whitesmoke;
+  
     text-align: center;
 }
 .none-bot{
