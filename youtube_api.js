@@ -27,7 +27,7 @@ const fetchData = (Choose_Url, chooseMethod=undefined, parts=undefined) => {
         )
     }
     if (chooseMethod === false) {
-        console.log('Thieu Par');
+        console.log('Thieu Par'); 
     }
 }
 
