@@ -11,7 +11,7 @@ body{
     font-family: 'Caveat', cursive;
 }
 #line {
-    border: 1px solid;
+    border: 1px solid; 
 }
 .content {
     width: 100%;
@@ -53,4 +53,10 @@ body{
     border-radius: 50px;
     margin: 20px;
     
+}
+.song-name {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: bold
 }
