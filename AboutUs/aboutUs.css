@@ -1,5 +1,6 @@
-.body{
+body{
     background-color: whitesmoke;
+  opacity: 0,1;
 }
 .title{
     width: 100%;
@@ -30,14 +31,15 @@
     height: 100vh;
     width: 60vw;
     margin-left: 20%;
-    border: 1px solid;
-  
-
+    /* border: 1px solid; */
+    
+    
 }
 .name{
     font-size: 70px;
     width: auto;
     height: 100px;
+    font-family: 'Fredericka the Great', cursive;
 }
 hr{
     border: 3px solid;
@@ -46,7 +48,49 @@ hr{
 }
 .feeling{
     box-sizing: border-box;
+    font-size: 27px;
+    font-family: 'Gochi Hand', cursive;
 }
 .center{
     text-align: center;
+}
+.pic{
+    width: 50%;
+    height: 60%;
+    border: 1px solid;
+    border-radius: 2px;
+    
+}
+.pic-word{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+.word{
+    margin-left: 5%;
+    font-size: 35px;
+    font-family: 'Gochi Hand', cursive;
+  
+}
+.word li{
+    padding-top: 15%;
+}
+
+.friends{
+    height: 100%;
+width: 100%;
+border: 3px solid;
+border-radius: 20px;
+}
+.row{
+    display: flex; 
+    height: 50%;
+    width: 100%;
+    
+    
+}
+.column{
+    height: auto;
+    width: 50%;
 }
