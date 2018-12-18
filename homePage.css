@@ -19,7 +19,7 @@ html {
 body{
     background-image: url("audio-black-and-white-black-and-white-6966\ \(1\).jpg");
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
     
 }
 
@@ -256,10 +256,13 @@ body{
     display: block;
 }
 .see-more{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 40px;
+    color: black;
 }
 .a-name{
     font-size: 50px;
     font-family: 'Dancing Script', cursive;
+    color: black
 }

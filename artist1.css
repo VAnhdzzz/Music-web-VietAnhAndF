@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(45, 50, 69);
+    z-index: 1;
+}
+.mother {
+    width: 100%
+}
+.content {
+    width: 100%;
+}
+.img-holder {
+    height: 400px;
+    width: 30%;
+    border: 5px solid;
+    display: flex;
+    justify-content: center;
+    color: black;
+    overflow: hidden;
+ 
+}
+.inline {
+    float: left;
+}
+.a-img {
+    width: 400px;
+    height: 400px
+}
+.tieusu {
+    font-size: 25px;
+    color: white;
+    
+    
+    font-family: 'Dancing Script', cursive;
+    height: 270px;
+}
+.line {
+    border: 3px solid;
+}
+.name {
+    font-size: 90px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+.float-right {
+    float: right;
+}
+.songs {
+    font-size:60px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    text-align: center
+}
+.song-name {
+    color: white
+}
+.playsong {
+    z-index: -999;
+}
