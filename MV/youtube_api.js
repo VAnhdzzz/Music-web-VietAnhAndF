@@ -41,4 +41,3 @@ const fetchData = (Choose_Url, chooseMethod=undefined, parts=undefined) => {
 //             });
 //         }
 //     )
-

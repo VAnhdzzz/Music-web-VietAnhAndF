@@ -1,3 +1,4 @@
+
 const url_channel = 'https://www.googleapis.com/youtube/v3/channels'
 
 
@@ -25,6 +26,3 @@ const run = (dataAfterGet) => {
 
         }
     }
-
-
-    
